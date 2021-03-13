@@ -10,9 +10,10 @@ i = 256*256
 print('The value of i is',i)
 
 
-a, b = 0, 1
+a, b = 1, 0
 while a < 1000:
     print(a, end=',')
+    a+=1
 
 
 
